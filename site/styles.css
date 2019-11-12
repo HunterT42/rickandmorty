@@ -19,7 +19,7 @@ body {
 .content {
   width: 1000px;
   margin: 0 auto;
-  height: 2000px;                  #высота для примера, потом поставлю auto
+  height: 2000px;                  /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
   border: none;
   border-radius: 10px;
   background-color: DarkOliveGreen;
@@ -80,4 +80,14 @@ a {
 }
 a:hover {
   color: white;
+}
+.about_characters li:nth-child(1){
+  margin-top: 80px;
+}
+.about_characters li{
+  display: inline-block;
+  border: 1px solid black;
+  width: 900px;                   /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
+  height: 500px;                  /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
+  border-radius: 10px;
 }
