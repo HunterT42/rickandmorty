@@ -19,7 +19,8 @@ body {
 .content {
   width: 1000px;
   margin: 0 auto;
-  height: 2000px;#высота для примера, потом поставлю auto border: none;
+  height: 2000px;                  #высота для примера, потом поставлю auto
+  border: none;
   border-radius: 10px;
   background-color: DarkOliveGreen;
 }
