@@ -12,6 +12,7 @@ body {
   height: 60px;
   background-color: DarkSlateBlue;
   margin-top: -8px;
+  border-radius: 10px;
 }
 
 .content {
