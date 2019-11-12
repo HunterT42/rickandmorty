@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  background-image:url(images/background.png);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.menu {
+  position: fixed;
+  width: 1000px;
+  height: 60px;
+  background-color: DarkSlateBlue;
+  margin-top: -8px;
+}
+
+.content {
+  width:1000px;
+  margin: 0 auto;
+  height: auto;
+  background-color: gray;
+}
+p {
+  color: ;
+  text-align: center;
+}
+.menu_buttons ul {
+font-family: 'Roboto', monospace;
+list-style: none;
+margin: 0;
+padding-left: 0px;
+text-align: center;
+}
+
+.menu_buttons ul img{
+  width: 160px;
+  height: 62px;
+  margin-left: 10px;
+  margin-top: -15px;
+  cursor: auto;
+  float: left;
+}
+.menu_buttons li {
+float: left;
+padding: 0;
+color: DeepSkyBlue;
+cursor: pointer;
+margin-top: 15px;
+line-height: 30px;
+border-left: 1px solid DeepSkyBlue;
+width: 160px;
+font-size: 18px;
+text-shadow: 1px 1px 1px yellow;
+}
+.menu_buttons li:nth-child(6) {
+border-right: 1px solid DeepSkyBlue;
+}
+.menu_buttons li:nth-child(1) {
+border: none;
+width: auto;
+}
+.menu_buttons li a{
+  text-decoration: none;
+  height: auto;
+}
+.menu_buttons li:hover {
+  color: white;
+}
