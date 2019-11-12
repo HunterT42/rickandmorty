@@ -17,7 +17,7 @@ body {
 
 .content {
   width:1000px;
-  margin: 0 auto;
+  margin: 0 auto;  #высота для примера как будет, потом поставлю auto
   height: auto;
   background-color: gray;
 }
