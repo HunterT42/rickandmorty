@@ -1,69 +1,83 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body {
-  background-image:url(images/background.png);
-  background-repeat:no-repeat;
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
 }
+
 .menu {
   position: fixed;
   width: 1000px;
   height: 60px;
   background-color: DarkSlateBlue;
-  margin-top: -8px;
+  margin-top: -18px;
   border-radius: 10px;
 }
 
 .content {
-  width:1000px;
+  width: 1000px;
   margin: 0 auto;
-  height: 2000px;  #высота для примера как будет, потом поставлю auto
-  background-color: gray;
+  height: 2000px;
+  #высота для примера, потом поставлю auto border: none;
+  border-radius: 10px;
+  background-color: DarkOliveGreen;
 }
+
 p {
   color: ;
   text-align: center;
 }
+
 .menu_buttons ul {
-font-family: 'Roboto', monospace;
-list-style: none;
-margin: 0;
-padding-left: 0px;
-text-align: center;
+  font-family: 'Roboto', monospace;
+  list-style: none;
+  margin: 0;
+  padding-left: 0px;
+  text-align: center;
 }
 
-.menu_buttons ul img{
+.menu_buttons ul img {
   width: 160px;
   height: 62px;
   margin-left: 10px;
-  margin-top: -15px;
+  margin-top: -20px;
   cursor: auto;
   float: left;
 }
+
 .menu_buttons li {
-float: left;
-padding: 0;
-color: DeepSkyBlue;
-cursor: pointer;
-margin-top: 15px;
-line-height: 30px;
-border-left: 1px solid DeepSkyBlue;
-width: 160px;
-font-size: 18px;
-text-shadow: 1px 1px 1px yellow;
+  float: left;
+  padding: 0;
+  cursor: pointer;
+  margin-top: 15px;
+  padding-top: 5px;
+  border-left: 1px solid DeepSkyBlue;
+  width: 160px;
+  font-size: 18px;
+
 }
+
 .menu_buttons li:nth-child(6) {
-border-right: 1px solid DeepSkyBlue;
+  border-right: 1px solid DeepSkyBlue;
 }
+
 .menu_buttons li:nth-child(1) {
-border: none;
-width: auto;
+  border: none;
+  width: auto;
 }
-.menu_buttons li a{
+
+.menu_buttons li a {
   text-decoration: none;
   height: auto;
 }
-.menu_buttons li:hover {
+
+a {
+  text-decoration: none;
+  color: DeepSkyBlue;
+  text-shadow: 1px 1px 1px yellow;
+}
+a:hover {
   color: white;
 }
