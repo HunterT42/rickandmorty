@@ -98,7 +98,7 @@ a:hover {
   background-color: Olive ;      /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
 }
 .about p {
-  color:red;               /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
+  color:black;               /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
   padding: 25px;
   text-align: justify;
 }
