@@ -6,7 +6,17 @@ body {
   background-attachment: fixed;
   background-size: 100%;
 }
-
+h1 {
+  color: DeepSkyBlue;
+  text-align: center;
+  text-shadow: 1px 1px 1px white;
+  font-family: 'Roboto', monospace;
+}
+p {
+  color: black ;
+  text-align: center;
+    font-family: 'Roboto', monospace;
+}
 .menu {
   position: fixed;
   width: 1000px;
@@ -23,11 +33,6 @@ body {
   border: none;
   border-radius: 10px;
   background-color: DarkOliveGreen;
-}
-
-p {
-  color: ;
-  text-align: center;
 }
 
 .menu_buttons ul {
@@ -81,13 +86,24 @@ a {
 a:hover {
   color: white;
 }
-.about_characters li:nth-child(1){
+.about li:nth-child(1){
   margin-top: 80px;
 }
-.about_characters li{
+.about li{
   display: inline-block;
   border: 1px solid black;
-  width: 900px;                   /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
-  height: 500px;                  /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
+  width: 900px;                  /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
+  height: auto;                  /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
   border-radius: 10px;
+  background-color: Olive ;      /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
+}
+.about p {
+  color:red;               /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
+  padding: 25px;
+  text-align: justify;
+}
+
+.about img {
+float: right;
+margin: 200px 100px;              /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
 }
