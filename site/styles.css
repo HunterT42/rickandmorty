@@ -106,5 +106,6 @@ a:hover {
 
 .about img {
 float: right;
-margin: 200px 100px;              /* ПАРАМЕТР ЗАДАН ДЛЯ ПРИМЕРА */
+padding-left: 25px;
+margin: 0 0 16px 0;           
 }
